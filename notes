@@ -1,0 +1,20 @@
+JAVA EE 7 Platform Highlights
+ - more annotations, less xml configuration
+ - New technologies:
+   -----------------
+   + Batch applications
+   + Concurrency Utilities
+   + API for JSON Processing (JSON-P)
+   + API for WebSocket
+ - New features for EJB components
+ - New features for servlets
+ - New features for JavaServer Faces (JSF) components
+ - New features for the Java Message Service (JMS)
+
+JEE Components:
+ - Application clients and applets - components that run on the client
+ - Servlets, JSF, JSP - web components that run on the server
+ - EJB components - business components than run on the server
+
+Containers - the interface between a component and the low level, platform specific functionality that supports the component
+Deployment process installs Java EE application components in the JEE containers
