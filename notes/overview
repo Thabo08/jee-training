@@ -34,4 +34,7 @@ Deployment descriptor - defines deployment settings for an application, JEE modu
 JEE module contains one or more components of the same container type and optionally one deployment descriptor of that type
 WAR - contains enterprise bean class files in the WEB-INF/classes directory, or the jar in the WEB-INF/lib directory
 RAR - resource adapter archive store Java classes, XML files and other objects for the JEE Connection Architecture (JCA)
-RAR can de deployed as a standalone component or as part of a larger application
+RAR can be deployed as a standalone component or as part of a larger application
+
+Useful Sites:
+Sample qns - https://www.epractizelabs.com/certification/oracle/1z0-900/mockexam.html

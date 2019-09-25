@@ -1,0 +1,22 @@
+Web Tier
+--------
+
+Web application - a dynamic extension of a web or application server
+
+Types of web applications:
+--------------------------
+1. Presentation oriented - contains markup language and dynamic content in response to a request
+2. Service oriented - exposes an endpoint to serve calls to the web application
+
+Servlets - Java classes that process requests and construct responses.
+Servlets are normally used for service oriented web apps
+Java Server Faces are normally used for presentation oriented web apps (can generate text based markup)
+
+JSF Scopes
+----------
+Scope defines how application data persists and is shared
+ + Request(@RequestScoped) - persists during a single HTTP request in a web application. Identifies a class as a managed bean
+ + Session(@SessionScoped) - persists across multiple HTTP requests in a web app
+ + Application(@ApplicationScoped) - persists across all users' interactions with a web app
+
+@WebServlet - annotation used to set the URL pattern for a servlet

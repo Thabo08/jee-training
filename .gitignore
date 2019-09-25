@@ -1,1 +1,3 @@
-/tutorial-examples
+/thabo-examples/*/*/*.iml
+/thabo-examples/web/BasicArithmeticGame/BasicArithmeticGame.iml
+tutorial-examples/web/servlet/hello2/.idea/*
